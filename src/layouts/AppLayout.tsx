@@ -9,7 +9,8 @@ import {
   Menu, 
   X, 
   LogOut,
-  ActivitySquare
+  ActivitySquare,
+  Building2
 } from 'lucide-react';
 
 interface AppLayoutProps {
@@ -34,6 +35,7 @@ const AppLayout = ({ onLogout }: AppLayoutProps) => {
     { path: '/slots', name: 'Slots', icon: <CalendarClock size={20} /> },
     { path: '/appointments', name: 'Appointments', icon: <Calendar size={20} /> },
     { path: '/notifications', name: 'Notifications', icon: <Bell size={20} /> },
+    { path: '/profile', name: 'Hospital Profile', icon: <Building2 size={20} /> },
   ];
 
   return (

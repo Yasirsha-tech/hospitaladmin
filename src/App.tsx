@@ -6,6 +6,7 @@ import DoctorManagement from './pages/DoctorManagement';
 import SlotManagement from './pages/SlotManagement';
 import Appointments from './pages/Appointments';
 import Notifications from './pages/Notifications';
+import HospitalProfile from './pages/HospitalProfile';
 import AppLayout from './layouts/AppLayout';
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Route path="slots" element={<SlotManagement />} />
         <Route path="appointments" element={<Appointments />} />
         <Route path="notifications" element={<Notifications />} />
+        <Route path="profile" element={<HospitalProfile />} />
       </Route>
       <Route path="*" element={<Navigate to={isAuthenticated ? "/dashboard" : "/login"} replace />} />
     </Routes>
