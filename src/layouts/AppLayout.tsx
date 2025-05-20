@@ -57,7 +57,7 @@ const AppLayout = ({ onLogout }: AppLayoutProps) => {
         <div className="flex items-center justify-between px-4 py-6">
           <div className="flex items-center">
             <ActivitySquare className="w-8 h-8 text-primary-500" />
-            <span className="ml-2 text-xl font-semibold text-gray-800">MediAdmin</span>
+            <span className="ml-2 text-xl font-semibold text-gray-800">APPOINTN</span>
           </div>
           <button
             onClick={closeSidebar}
